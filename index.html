@@ -6,8 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Mode</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    
+    <header>
+        <h2>Claro e Escuro</h2>
+        <div>
+            <input type="checkbox" name="change-theme" id="change-theme">
+            <label for="change-theme">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
+            </label>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="card-image">
+                <span>Nike</span>
+                <img class="card-img" src="./assets/img/tenis.png" alt="Tenis Nike">
+            </div>
+            <div class="card-details">
+                <h2>Tenis Nike</h2>
+                <p class="subtitle">Excelente para corridas</p>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ducimus ad maxime non. Necessitatibus ratione numquam hic adipisci, odit nesciunt dolorem ab earum iure voluptates quisquam cum, commodi similique fugit?</p>
+                <div class="price-container">
+                    <span class="price">R$499,99</span>
+                    <button class="btn">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
